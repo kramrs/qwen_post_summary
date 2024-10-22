@@ -1,0 +1,22 @@
+{
+  "regions": ["sin1"],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/index",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/api/index"
+    }
+  ],
+  "functions": {
+    "api/**/*": {
+      "maxDuration": 60
+    }
+  }
+}
