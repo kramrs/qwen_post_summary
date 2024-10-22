@@ -18,5 +18,7 @@
     "api/**/*": {
       "maxDuration": 60
     }
-  }
+  },
+  "public": true,
+   "outputDirectory": "build"
 }
